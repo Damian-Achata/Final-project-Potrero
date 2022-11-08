@@ -1,0 +1,12 @@
+* {
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+section {
+    border: 2px solid whitesmoke;
+}
+table {
+    margin-left: 630px;
+}

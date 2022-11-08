@@ -1,0 +1,15 @@
+.card {
+    border-radius: 5px;
+}
+
+h1, button, h2,p,a,div  {
+    text-align: center;
+    background-color: black;
+}
+
+
+* {
+    background-color: black;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
