@@ -1,3 +1,11 @@
+<?php 
+    session_start();
+    $usuario = $_SESSION['usuario'];
+    if (!isset($usuario)) {
+        header('location:./Login/login.html');
+    }
+    
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +18,7 @@
 <body>
     <h1>Tienda de ropa</h1>
     <button type="submit" ><a href="index.html">Inicio</a></button>
+    <a href="./Login/cerrarSesion.php">Cerrar Sesion</a>
     <h2>Lista de ropa</h2>
     <p>La siguiente lista muestra los datos de la ropa actualmente en stock.</p>
     <table border="1">
